@@ -2,18 +2,13 @@
 
 This repository is for taking notes while learning technologies.
 
-## Technology
-
-- Express
-- Node
-
 ## Node
 
 ```sh
-$ npm init      # start new node project
-$ npm i express dotenv # install packages
-$ npm i -D nodemon # install packages for only in development mode
-$ npm i morgan # logger middleware
+$ npm init # start new node project
+$ npm i express dotenv morgan mongoose colors slugify # install packages
+$ npm i -D nodemon # install packages only in development mode
+$ npm run dev # run server with development mode
 ```
 
 ### package.json
@@ -29,6 +24,12 @@ $ npm i morgan # logger middleware
 
 - It needs 3 parameters (req, res, next)
 - It can be used the code after `app.use(SOME_MIDDLEWARE)`;
+- [asyncHandler](https://www.acuriousanimal.com/blog/2018/03/15/express-async-middleware)
+- [Mongoose documents about middleware](https://mongoosejs.com/docs/middleware.html)
+
+// Mongoose
+
+- Sometimes you want to show the fields in the class that not belongs to -> use [virtuals](https://mongoosejs.com/docs/tutorials/virtuals.html)
 
 ## License
 
