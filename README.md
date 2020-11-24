@@ -6,7 +6,7 @@ This repository is for taking notes while learning technologies.
 
 ```sh
 $ npm init # start new node project
-$ npm i express dotenv morgan mongoose colors slugify # install packages
+$ npm i express dotenv morgan mongoose colors slugify express-fileupload jsonwebtoken bcryptjs cookie-parser # install packages
 $ npm i -D nodemon # install packages only in development mode
 $ npm run dev # run server with development mode
 ```
