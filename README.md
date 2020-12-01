@@ -31,6 +31,12 @@ $ npm run dev # run server with development mode
 
 - Sometimes you want to show the fields in the class that not belongs to -> use [virtuals](https://mongoosejs.com/docs/tutorials/virtuals.html)
 
+## React
+
+```sh
+$ npx create-react-app . # start new react project locally not globally
+```
+
 ## License
 
 Distributed under the MIT License. See [LICENSE.md](LICENSE.md) for more information.
